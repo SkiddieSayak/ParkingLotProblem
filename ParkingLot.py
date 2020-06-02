@@ -120,7 +120,7 @@ class ParkingLot:
 
 if __name__ == '__main__':
     parkinglot = ParkingLot()
-    print("\t\t\t\t\t*****COMMANDS*****\n\n1. create_parking_lot n - Create a parking lot of n number of slots \n2. park car_regno car_color - Parks a vehicle with given registration number and color in the nearest empty slot.\n3. status - Prints the status of the parking lot.\n4. leave x - Unparks vehicle from slot number x")
+    print("\t\t\t\t\t*****COMMANDS*****\n\n1. create_parking_lot n - Create a parking lot of n number of slots \n2. park car_regno car_colour - Parks a vehicle with given registration number and color in the nearest empty slot.\n3. status - Prints the status of the parking lot.\n4. leave x - Unparks vehicle from slot number x .\n5. slot_numbers_for_cars_with_colour car_colour - Prints the slot numbers cars with particular colour.\n6. slot_number_for_registration_number car_regno - Gets the slot number of the car with particular registration number")
     while True:
         line = input("$ ")
         parkinglot.show(line)
